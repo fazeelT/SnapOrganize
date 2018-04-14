@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "sdkVersion": "25.0.0",
+    "name": "SnapOrganize",
+    "icon": "./assets/snap-organize-icon.png",
+    "version": "1.0.0",
+    "slug": "snap-organize",
+    "version": "1.0",
+    "orientation": "portrait",
+    "privacy": "public",
+    "splash": {
+      "image": "./assets/snap-organize-splash.png",
+      "resizeMode": "cover"
+    },
+    "ios": {
+      "bundleIdentifier": "com.zaygon.snaporganize",
+      "supportsTablet":false,
+      "infoPlist": {
+        "NSCameraUsageDescription":
+          "The app needs permission to your camera in order to scan bar codes",
+        "NSPhotoLibraryUsageDescription":
+          "The app needs permission to your camera roll in order to save qr codes"
+      }
+    },
+    "android": {
+      "package": "com.zaygon.snaporganize"
+    }
+  }
+}
